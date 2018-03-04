@@ -6,7 +6,7 @@
 int main()
 {
 	kill(getpid(),SIGKILL);
-	printf("sending SIGKILL");
+	printf("sending SIGKILL"); //wont execute this line
 }
 
 
